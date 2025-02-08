@@ -1,0 +1,95 @@
+/* General container styling */
+.petlist {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Header styling */
+.h11 {
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* Input filter styling */
+.div1 input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Pets container */
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual pet card */
+.div2 > div {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: left;
+    background: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pet details styling */
+.div2 h3 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.div2 p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Pet image styling */
+.div2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.button1 {
+    display: block;
+    width: 70%;
+    padding: 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    
+    
+}
+
+.button1:hover {
+    background-color: #218838;
+}
+
+/* Adopted text styling */
+span {
+    display: block;
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
